@@ -4,7 +4,7 @@ with open('README.md') as f:
     long_description = f.read()
 setup(
     name='subtrans',
-    version='1.0.1',
+    version='1.0.2',
     py_modules=['SubtitleTranslator'],
     long_description=long_description,
     long_description_content_type='text/markdown',
