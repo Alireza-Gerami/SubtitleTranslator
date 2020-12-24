@@ -3,7 +3,7 @@ from setuptools import setup
 with open('README.md') as f:
     long_description = f.read()
 setup(
-    name='SubtitleTranslator',
+    name='subtrans',
     version='1.0.0',
     py_modules=['SubtitleTranslator'],
     long_description=long_description,
