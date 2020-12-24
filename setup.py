@@ -6,6 +6,7 @@ setup(
     py_modules=['SubtitleTranslator'],
     packages=['SubtitleTranslator'],
     url='https://github.com/Alireza-Gerami/SubtitleTranslator',
+    download_url='https://github.com/Alireza-Gerami/SubtitleTranslator/archive/main.tar.gz',
     install_requires=[
         'click',
         'pysrt',
@@ -20,4 +21,12 @@ setup(
         [console_scripts]
         subtrans=SubtitleTranslator.SubtitleTranslator:cli
     ''',
+    keywords=['TRANSLATE', 'TOOLS', 'SUBTITLE'],
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Build Tools',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3.9',
+    ],
 )
