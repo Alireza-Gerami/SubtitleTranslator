@@ -11,7 +11,7 @@ $ pip install subtrans
 ### Usage
 
 ```sh
-$ subtrans translate subtitle.srt --src en -dest fa
+$ subtrans translate subtitle.srt --src en --dest fa
 ```
 
 License
