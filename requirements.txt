@@ -4,6 +4,5 @@ Pillow~=7.2.0
 httpx~=0.13.3
 click~=7.1.2
 pysrt~=1.1.2
-SubtitleTranslator~=1.0.0
 googletrans~=4.0.0rc1
 tqdm~=4.54.1
