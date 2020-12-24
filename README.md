@@ -6,7 +6,7 @@ SubtitleTranslator is a python subtitle translator as a command-line tool.
 ### Installation
 
 ```sh
-$ pip install https://github.com/Alireza-Gerami/SubtitleTranslator/archive/main.zip
+$ pip install https://github.com/Alireza-Gerami/SubtitleTranslator/archive/main.tar.gz
 ```
 ### Usage
 
