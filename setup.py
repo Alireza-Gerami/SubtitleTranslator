@@ -1,9 +1,13 @@
 from setuptools import setup
 
+with open('README.md') as f:
+    long_description = f.read()
 setup(
     name='SubtitleTranslator',
     version='1.0.0',
     py_modules=['SubtitleTranslator'],
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     packages=['SubtitleTranslator'],
     url='https://github.com/Alireza-Gerami/SubtitleTranslator',
     download_url='https://github.com/Alireza-Gerami/SubtitleTranslator/archive/main.tar.gz',
