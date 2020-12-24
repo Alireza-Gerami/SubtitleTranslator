@@ -1,4 +1,4 @@
-https://img.shields.io/github/license/Alireza-Gerami/SubtitleTranslator
+[![MIT License][license-shield]][license-url]
 # SubtitleTranslator
 
 SubtitleTranslator is a python subtitle translator as a command-line tool.
