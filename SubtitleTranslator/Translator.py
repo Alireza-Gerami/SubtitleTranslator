@@ -17,5 +17,8 @@ class Translator:
         timeout = httpx.Timeout(10)
         self.translator = googletrans.Translator(service_urls=['translate.google.com', 'translate.google.co.kr'],
                                                  timeout=timeout)
-        subtitle.text = self.translator.translate(subtitle.text, src=self.src, dest=self.dest).text
+        try:
+            subtitle.text = self.translator.translate(subtitle.text, src=self.src, dest=self.dest).text
+        except:
+            pass
         self.progressbar.update(1)
